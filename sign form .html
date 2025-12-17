@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking form</title>
+</head><STYLE>
+    body{
+        display:flex;
+        border: 1px solid black;
+        background-color: #1211112d;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        
+    }
+    
+    fieldset {
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            width: 400px;
+        }
+    div {
+            margin-bottom:20px;
+        }
+    label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+    .bgimage {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            min-height: 150vh;
+            min-width:150vh;   
+            position: relative;     
+        }
+</STYLE>
+<body >
+    <div class="bgimage" style="background-image: url(https://img.freepik.com/premium-photo/esports-merchandise-store-room-b…shelves-gaming-m-illustration-trending-background-decor_1020495-180139.jpg)">
+         
+            <form action="#" method="post">
+            <legend><center>SIGN IN</center></legend>
+        <fieldset>
+        <div>    
+        <label for="name" >Enter name :
+                <input type="text" name="name" id="name" align="left"></label>
+        </div> 
+        <div>
+            <label for="email" >Enter Email :
+                <input type="email" name="mail" id="mail" align="left"></label>
+        </div>
+        <div>
+            <label for="phone" >Phone :
+                <input type="tel" id="phone" name="user_phone" style="height: 20px ; width: 200px;"align="left"></label>
+        </div>
+        <div>
+            <label for=" password" >NEW password :
+                <input type="PASS" id="password" name="password" style="height: 20px ; width: 200px;"align="left"></label>
+        </div>
+        <div>
+            <label for=" password" >RE-NEW password :
+                <input type="PASS" id="password" name="password" style="height: 20px ; width: 200px;"align="left"></label>
+        </div>
+         <center><button type="submit" style="height: 40px; width: 200px; border-radius: 20cap;">CREATE ACCOUNT</button></center>
+          
+        </fieldset>
+    
+        </form>
+    </div>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaming product store </title>
+    <style>
+        body{
+            background: white;
+            background-size: 50% 100%;
+            background-position: center;
+            width: 1500;
+            height: 1000;
+            border: 1px solid black;
+        }
+        .header{
+            inline-size: none;
+            background: #0b0b0b;
+            text-align: center;
+            color: white;
+            padding: 3px;
+        }
+        nav{
+            background-color: #e5e20b;
+            padding:10px;
+            margin-left: auto;
+            border:2px solid black;
+            text-spacing:30px ;
+        }
+        .navi a{
+            display: inline;
+            margin-left:20px;
+            color: lab(48.97% 20.13 -65.73 / 0.76);
+            text-decoration: none;
+        }
+        .one a{
+            display: inline;
+            color: black; 
+            padding: 14px 16px;  
+            margin-left: 20px;
+            text-decoration: none;
+       }
+       .grid{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        gap:10px;
+       }
+       .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 16px;
+            text-align: center;
+        }
+        .card img {
+             width: 60%;
+             height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .card h3 {
+            font-size: 18px;
+            margin: 8px 0;
+        
+        }
+        .card p{
+            font-size: 14px;
+            color: dimgray;
+            margin: 4px 0;
+        }
+        .price {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .bgimage {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            min-height: 100vh;   
+            position: relative;     
+        }
+        @media (max-width: 1024px) {
+ .grid {
+ grid-template-columns: repeat(4, 2fr); /* 2 columns for tablets */
+ }
+ }
+ @media (max-width: 600px) {
+ .grid {
+ grid-template-columns: 2fr; /* 1 column for mobile */
+ }  
+ }     
+       
+    </style>
+</head>
+<body>
+    <div class="header"><h2>A.P STORE</h2></div>
+       <nav class="navi" >
+        <a href="#"><u>Home</u></a>      
+        <a href="#"><u>About us</u></a>
+        <a href="#"><u><b>Special</b> Products </u></a> 
+        <a href="#"><u>history</u></a>
+        <a href="#"><u>Our Outlets</u></a>
+        <a href="#"><u>Contact us</u></a>
+        <a></a>
+        <a></a>
+        <a></a>
+        <a></a>
+        <input type="search" style="height: 40px; width: 200px; border-radius: 20cap; text-align: center;" id="q" name="q" placeholder="Enter product name" align="right">
+            <button type="submit" align="right" >Search</button>
+        <a href="file:///C:/Users/Aditya%20Patel/Desktop/cse12/project/sign%20form%20.html" style="color: red; " align="right"> SIGN IN</a>
+        
+    </nav>
+    <div style="margin-bottom: 10px; padding: 10px; border: 2px solid black;">
+        <nav class="one" style="background-color: rgb(249, 247, 247)">
+        <a href="#"><u>PC</u></a>      
+        <a href="#"><u>LAPTOP</u></a>
+        <a href="#"><u>GAMING LAPTOP</u></a>
+        <a href="#"><u>MOUSE</u></a>
+        <a href="#"><u>KEYBOARD</u></a>
+        <a href="#"><u>GRAPIC CARD</u></a>
+        <a href="#"><u>RAM</u></a>
+        <a href="#"><u>HARDDRIVE</u></a>
+        <a href="#"><u>PENDRIVE</u></a>
+        <a href="#"><u>MONITOR</u></a>
+        <a href="#"><u>STORAGE</u></a>
+    </nav></div>
+    <div class="bgimage" style="background-image: url(https://img.freepik.com/premium-photo/esports-merchandise-store-room-b…shelves-gaming-m-illustration-trending-background-decor_1020495-180139.jpg)">
+         
+    </div>
+      <div class="grid">
+ <div class="card">
+ <img src="https://m.media-amazon.com/images/I/71FLsWWmE8L._AC_SL1500_.jpg" alt="product 1" >
+ <h3>CyberpowerPC Gamer Xtreme VR Gaming PC</h3>
+ <p>Intel Core i7-12700F 2.1GHz</p>
+ <p class="price">₹50,000.00</p>
+ </div>
+ <div class="card">
+ <img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_97958704/fee_786_587_png" alt="product 2">
+ <h3>Le 20.000+ migliori foto di Pc</h3>
+ <p>best sale product </p>
+ <p class="price">₹39999.00</p>
+ </div>
+ <div class="card">
+ <img src="https://cdn.thepcenthusiast.com/wp-content/uploads/2024/05/nvidia-rtx-5090-founders-edition-leaks.jpg" alt="Nvidia Geforce Rtx 5090 The Ultimate Graphics Card Of 2025 May 2025 ...">
+ <h3>geforce rtx 5090</h3>
+ <p>Nvidia Geforce Rtx 5090</p>
+ <p class="price">₹59999.00</p>
+ </div>
+ <div class="card">
+ <img src="https://www.custompc.com/wp-content/sites/custompc/2023/03/nvidia-geforce-rtx-4090-review-01.jpg" alt="Nvidia GeForce RTX 4090 review" >
+ <h3>geforce rtx 4090 </h3>
+ <p>Nvidia GeForce RTX 4090</p>
+ <p class="price">₹69999.00</p></div>
+</body>
+</html>
